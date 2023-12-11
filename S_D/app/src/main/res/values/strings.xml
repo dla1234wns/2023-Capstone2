@@ -1,0 +1,104 @@
+<resources>
+    //login
+    <string name="app_name">S_D</string>
+    <string name="login_title">S_D</string>
+    <string name="login_id_hint">ID</string>
+    <string name="login_pw_hint">PASSWORD</string>
+    <string name="login_button">로그인</string>
+    <string name="login_id_pw_find_button">ID/PW 찾기</string>
+    <string name="center_text">|</string>
+    <string name="login_signup_button">회원가입</string>
+    //login_id_pw_find
+    <string name="id_pw_find_image">Image</string>
+    <string name="id_pw_title">ID/PW 찾기</string>
+    <string name="id_pw_find_id_button">아이디 찾기</string>
+    <string name="id_pw_find_pw_button">비밀번호 찾기</string>
+    //id_find_fragment
+    <string name="id_find_title">회원정보에 등록한 이메일로 찾기</string>
+    <string name="id_find_name">이름</string>
+    <string name="id_find_edit_name">실명 입력</string>
+    <string name="id_find_email">이메일 주소</string>
+    <string name="id_find_email_hint">name@email.com</string>
+    <string name="id_find_cn_button">인증번호 받기</string>
+    <string name="id_find_cn">인증번호</string>
+    <string name="id_find_cn_hint">인증번호 입력</string>
+    <string name="id_find_cn_check_button">확인</string>
+    <string name="id_find_ok_button">아이디 찾기</string>
+    //id_find_dialog
+    <string name="id_find_dialog_title">아이디 찾기</string>
+    <string name="id_find_dialog_text">회원가입 시 사용한 아이디는</string>
+    <string name="id_find_dialog_text2">입니다.</string>
+    <string name="id_find_dialog_button">로그인</string>
+    //pw_find_fragment
+    <string name="pw_find_title">회원정보에 등록한 이메일로 찾기</string>
+    <string name="pw_find_id">아이디</string>
+    <string name="pw_find_id_hint">가입된 아이디 입력</string>
+    <string name="pw_find_name">이름</string>
+    <string name="pw_find_name_hint">실명 입력</string>
+    <string name="pw_find_email">이메일 주소</string>
+    <string name="pw_find_email_hint">name@email.com</string>
+    <string name="pw_find_cn_button">인증번호 받기</string>
+    <string name="pw_find_cn">인증번호</string>
+    <string name="pw_find_cn_hint">인증번호 입력</string>
+    <string name="pw_find_cn_check_button">확인</string>
+    <string name="pw_find_button">비밀번호 찾기</string>
+    //login_pw_change
+    <string name="login_pw_change_back">image</string>
+    <string name="login_pw_change_title">비밀번호 변경</string>
+    <string name="login_pw_change_title_nd">비밀번호 변경</string>
+    <string name="login_pw_change_id">아이디</string>
+    <string name="login_pw_change_id_hint">가입된 아이디 입력</string>
+    <string name="login_pw_change_new_pw">새 비밀번호</string>
+    <string name="login_pw_change_new_pw_hint">새로운 비밀번호 입력</string>
+    <string name="login_pw_change_new_pw_check">새 비밀번호 확인</string>
+    <string name="login_pw_change_new_pw_check_hint">새로운 비밀번호 확인</string>
+    <string name="login_pw_change_button">비밀번호 변경</string>
+    //dialog
+    <string name="dialog_button">확인</string>
+    //signup
+    <string name="signup_back">image</string>
+    <string name="signup_title">회원 가입</string>
+    <string name="signup_id">아이디</string>
+    <string name="signup_id_hint">아이디 입력</string>
+    <string name="signup_id_check">중복 확인</string>
+    <string name="signup_pw">비밀번호</string>
+    <string name="signup_pw_hint">비밀번호 입력</string>
+    <string name="signup_pw_ok_image">image</string>
+    <string name="signup_pw_no_image">image</string>
+    <string name="signup_pw_check">비밀번호 확인</string>
+    <string name="signup_pw_check_hint">비밀번호 확인</string>
+    <string name="signup_pw_check_ok_button">image</string>
+    <string name="signup_pw_check_no_image">image</string>
+    <string name="signup_name">이름</string>
+    <string name="signup_name_hint">실명 입력</string>
+    <string name="signup_email">이메일 주소</string>
+    <string name="signup_email_hint">name@email.com</string>
+    <string name="signup_email_cn_button">인증번호 받기</string>
+    <string name="signup_cn_check">인증번호</string>
+    <string name="signup_cn_check_hint">인증번호 입력</string>
+    <string name="signup_cn_check_button">확인</string>
+    <string name="signup_button">완료</string>
+    //item_layout
+    <string name="item_layout_textDeviceNo">device_no</string>
+    <string name="item_layout_textDeviceType">device_type</string>
+    <string name="item_layout_textDeviceName">device_name</string>
+    <string name="item_layout_textDeviceSN">device_sn</string>
+    <string name="item_layout_textDeviceStatus">device_status</string>
+    //main
+    <string name="main_textDeviceNoView">순서</string>
+    <string name="main_textDeviceTypeView">종류</string>
+    <string name="main_textDeviceNameView">명칭</string>
+    <string name="main_textDeviceSNView">S/N</string>
+    <string name="main_textDeviceStatusView">상태값</string>
+    <string-array name="options">
+        <item>1(온도)</item>
+        <item>2(습도)</item>
+        <item>3(릴레이)</item>
+        <item>4(리드)</item>
+    </string-array>
+    <string-array name="device_types">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+</resources>

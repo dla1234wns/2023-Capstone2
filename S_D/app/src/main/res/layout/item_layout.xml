@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textDeviceNo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/item_layout_textDeviceNo"
+        android:textColor="@color/blueGray_900"/>
+
+    <TextView
+        android:id="@+id/textDeviceType"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/item_layout_textDeviceType"
+        android:textColor="@color/blueGray_900"/>
+
+    <TextView
+        android:id="@+id/textDeviceName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/item_layout_textDeviceName"
+        android:textColor="@color/blueGray_900"/>
+
+    <TextView
+        android:id="@+id/textDeviceSN"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/item_layout_textDeviceSN"
+        android:textColor="@color/blueGray_900"/>
+
+    <TextView
+        android:id="@+id/textDeviceStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/item_layout_textDeviceStatus"
+        android:textColor="@color/blueGray_900"/>
+
+</LinearLayout>

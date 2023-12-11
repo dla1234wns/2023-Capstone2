@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="light_sky_blue">#92C1F7</color>
+
+    <!-- day color sheet-->
+    <color name="cobalt_blue">#023170</color>
+    <color name="liberty_blue">#4C72B6</color>
+    <color name="blue_white">#D9EAF5</color>
+    <color name="dark_pastel_blue">#114C83</color>
+    <color name="true_navy">#031836</color>
+    <!-- night color sheet-->
+
+
+    <!-- Indigo-->
+    <color name="indigo_50">#E8EAF6</color>
+    <color name="indigo_100">#C5CAE9</color>
+    <color name="indigo_200">#9FA8DA</color>
+    <color name="indigo_300">#7986CB</color>
+    <color name="indigo_400">#5C6BC0</color>
+    <color name="indigo_500">#3F51B5</color>
+    <color name="indigo_600">#3949AB</color>
+    <color name="indigo_700">#303F9F</color>
+    <color name="indigo_800">#283593</color>
+    <color name="indigo_900">#1A237E</color>
+
+    <!-- Blue Gray -->
+    <color name="blueGray_50">#ECEFF1</color>
+    <color name="blueGray_100">#CFD8DC</color>
+    <color name="blueGray_200">#B0BEC5</color>
+    <color name="blueGray_300">#90A4AE</color>
+    <color name="blueGray_400">#78909C</color>
+    <color name="blueGray_500">#607D8B</color>
+    <color name="blueGray_600">#546E7A</color>
+    <color name="blueGray_700">#455A64</color>
+    <color name="blueGray_800">#37474F</color>
+    <color name="blueGray_900">#263238</color>
+
+
+    <!-- switch on -->
+    <color name="gray_skyblue">#7EAAD3</color>
+
+    <!-- tag color sheet -->
+    <color name="pink">#EE6B6E</color>
+    <color name="crimson">#F58D66</color>
+    <color name="orange">#FCAC6D</color>
+    <color name="yellow">#FFC66D</color>
+    <color name="light_green">#CDD572</color>
+    <color name="turquoise">#79C4A3</color>
+    <color name="pastel_blue">#89A4F1</color>
+    <color name="pastel_purple">#B49EF0</color>
+
+    <!-- light color sheet -->
+    <color name="lighter_pink">#FFE3E3</color>
+    <color name="lighter_crimson">#FFEAE0</color>
+    <color name="lighter_orange">#FFF4E9</color>
+    <color name="lighter_yellow">#FFECDE</color>
+    <color name="lighter_light_green">#FBFFE3</color>
+    <color name="lighter_turquoise">#E6FFF4</color>
+    <color name="lighter_pastel_blue">#E2EAFF</color>
+    <color name="lighter_pastel_purple">#E8DFFF</color>
+
+    <!-- stroke color -->
+    <color name="stroke_pink">#BD5557</color>
+    <color name="stroke_crimson">#D17857</color>
+    <color name="stroke_orange">#CF8D59</color>
+    <color name="stroke_yellow">#CC9E57</color>
+    <color name="stroke_light_green">#A4AB5B</color>
+    <color name="stroke_turquoise">#5A9179</color>
+    <color name="stroke_pastel_blue">#6D82BF</color>
+    <color name="stroke_pastel_purple">#8877B5</color>
+
+    <!-- colorAccent color -->
+    <color name="colorAccent">#ff4081</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+</resources>

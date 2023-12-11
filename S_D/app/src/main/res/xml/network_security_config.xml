@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <!-- 해당 서버의 인증서 또는 CA 인증서를 여기에 추가 -->
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

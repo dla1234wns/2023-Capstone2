@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Signup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/cobalt_blue"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/signup_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/back"
+                android:contentDescription="@string/signup_back"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/blue_white"
+                android:text="@string/signup_title"
+                android:textSize="25sp"/>
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/signup_id"
+                    android:textColor="@color/liberty_blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:id="@+id/signup_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="#ffffff"
+                        android:ems="10"
+                        android:hint="@string/signup_id_hint"
+                        android:text=""
+                        android:autofillHints=""
+                        android:inputType=""
+                        android:singleLine="true"/>
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/signup_id_check_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="2dp"
+                        android:background="@drawable/check_button"
+                        android:gravity="center"
+                        android:text="@string/signup_id_check"
+                        android:textColor="@color/blue_white"
+                        android:textSize="12sp"
+                        android:textStyle="bold">
+                    </androidx.appcompat.widget.AppCompatButton>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/signup_pw"
+                    android:textColor="@color/liberty_blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/signup_pw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#ffffff"
+                        android:ems="10"
+                        android:hint="@string/signup_pw_hint"
+                        android:text=""
+                        android:autofillHints=""
+                        android:inputType="textPassword"
+                        android:singleLine="true"/>
+                    <ImageView
+                        android:id="@+id/signup_pw_check_icon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:visibility="invisible"
+                        android:src="@drawable/check"
+                        android:contentDescription="@string/signup_pw_ok_image"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageView
+                        android:id="@+id/signup_pw_no_icon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:visibility="invisible"
+                        android:src="@drawable/no_icon"
+                        android:contentDescription="@string/signup_pw_no_image" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/signup_pw_check"
+                    android:textColor="@color/liberty_blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/signup_pw2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#ffffff"
+                        android:ems="10"
+                        android:hint="@string/signup_pw_check_hint"
+                        android:text=""
+                        android:autofillHints=""
+                        android:inputType="textPassword"
+                        android:singleLine="true" />
+
+                    <ImageView
+                        android:id="@+id/signup_pw2_check_icon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:visibility="invisible"
+                        android:src="@drawable/check"
+                        android:contentDescription="@string/signup_pw_check_ok_button" />
+
+                    <ImageView
+                        android:id="@+id/signup_pw2_no_icon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:visibility="invisible"
+                        android:src="@drawable/no_icon"
+                        android:contentDescription="@string/signup_pw_check_no_image"
+                        tools:ignore="ContentDescription" />
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/signup_name"
+                    android:textColor="@color/liberty_blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/signup_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#ffffff"
+                    android:ems="10"
+                    android:hint="@string/signup_name_hint"
+                    android:text=""
+                    android:autofillHints=""
+                    android:inputType=""
+                    android:singleLine="true" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/signup_email"
+                    android:textColor="@color/liberty_blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:id="@+id/signup_mail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#ffffff"
+                        android:ems="10"
+                        android:hint="@string/signup_email_hint"
+                        android:text=""
+                        android:autofillHints=""
+                        android:inputType=""
+                        android:singleLine="true"/>
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/signup_mail_cn_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="2dp"
+                        android:background="@drawable/check_button"
+                        android:text="@string/signup_email_cn_button"
+                        android:textColor="@color/white"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/signup_cn_check"
+                    android:textColor="@color/liberty_blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/signup_mail_cn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#ffffff"
+                        android:ems="10"
+                        android:hint="@string/signup_cn_check_hint"
+                        android:text=""
+                        android:autofillHints=""
+                        android:inputType="textPassword"
+                        android:singleLine="true"/>
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/signup_mail_cn_check_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="2dp"
+                        android:background="@drawable/check_button"
+                        android:text="@string/signup_cn_check_button"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signup_button"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bin_blue"
+            android:text="@string/signup_button"
+            android:textColor="@color/blue_white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</FrameLayout>
